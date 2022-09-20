@@ -1,0 +1,147 @@
+.mat-card{
+    border-radius: 32px;
+    border-color:rgba(0, 0, 0, 0.904);
+    margin: 10px 10px;
+    padding:20px;
+}
+.mat-card#head{
+    border-radius: 0px;
+    padding: 3px;
+    margin: 0px 0px;
+    background: rgba(0, 0, 0, 0.904);
+    color:aliceblue;
+}
+button#login-btn{
+    background:rgb(0, 0, 0);
+    width: 100px;
+    margin-left: 1200px;
+    margin-top: -35px;
+    color:rgb(60, 197, 5);
+    border-color:rgb(60, 197, 5);
+}
+.mat-card#first-card{
+    padding: 0;
+}
+div#profile-background {
+    display: flex;
+}
+div#profile-background img{
+    width: 100%;
+    height: 400px;
+    border-radius: 32px 32px 0 0;
+}
+.profile-image{
+    border-radius: 50%;
+    width: 152px;
+    height: 152px;
+    margin-top: -110px;
+    z-index: 1;
+}
+div#info-actions{
+    display: flex;
+}
+div#info-company{
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.25;
+}
+div#info-data{
+    display:flex;
+    justify-content: space-between;
+}
+div#info-data h1{
+    font-size: 1.8rem;
+    display: inline;
+    font-weight: 500;
+    line-height: 1.25;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+div#info-data ul#info-details {
+    width:232px;
+    list-style: none;
+    flex-shrink: 0;
+}
+div#info-data ul#info-details li a img{
+    width:50px;
+    height:50px;
+    margin-right:8px;
+}
+h1#acerca{
+    margin-top:-20px;
+}
+p#text-acercade{
+    margin-bottom: -5px;
+}
+div#backend2{
+    margin-left:9%;
+    margin-top: -30px;
+}
+.container{
+    width: 50%;
+    padding: 6px;
+    margin: 10px;
+    background-color: rgb(71, 70, 70);
+    border-radius: 5px;
+}
+
+.html{
+    width: 50%; background-color: rgb(10, 202, 10);padding: 6px;margin: 10px;
+}
+.css{
+    width: 55%; background-color: rgb(10, 202, 10);padding: 6px;margin: 10px;
+}
+.javascript{
+    width: 50%; background-color: rgb(10, 202, 10);padding: 6px;margin: 10px;
+}
+.ingles{
+    width: 90%; background-color: rgb(10, 202, 10);padding: 6px;margin: 10px;
+}
+.excel{
+    width: 45%; background-color: rgb(10, 202, 10);padding: 6px;margin: 10px;
+}
+button#info{
+    background-color:blue;
+    border-color:blue;
+    width:75px;
+    padding:3px;
+    margin-top: -10px;
+}
+a#info2{
+    color:white;
+}
+.mat-card#footer{
+    border-radius: 0px;
+    padding: 5px;
+    margin: 0px 0px;
+    background: rgba(0, 0, 0, 0.904);
+    color:aliceblue;
+}
+.gmail{
+    width:50px;
+}
+ul{
+    list-style-type:none;
+}
+li{
+    list-style-type:none;
+}
+
+button#edit-button{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: rgb(0, 195, 255);
+    margin-left:13%;
+    margin-bottom: -50px;
+}
+button#edit-button2{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: rgb(0, 195, 255);
+    margin-left:90%;
+    margin-bottom: -15px;
+}
+
+

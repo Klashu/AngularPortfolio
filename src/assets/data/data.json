@@ -1,0 +1,47 @@
+{
+    "name": "Mateo Horacio Bernal",
+    "background": "./assets/Fondo.jpg",
+    "image": "./assets/Foto Perfil.jpg",
+    "position": "Emprendedor",
+    "ubication": "Rio Negro (Argentina)",
+    "about": "Tengo 25 años, naci en Rio Negro en la localidad de Villa Regina y actualmente soy propietario junto con mi familia de un pool/bar, aprendi lo basico de programacion java y sigo aprendiendo sobre programacion",
+    "aptitudes": [{
+        "name": "HTML",
+        "progress": "50"
+    },
+    {
+        "name": "css",
+        "progress": "55"
+    },
+    {
+        "name": "javascript",
+        "progress": "50"
+    },
+    {
+        "name": "ingles",
+        "progress": "95"
+    },
+    {
+        "name": "excel",
+        "progress": "45"
+    }
+
+    ],
+    "contact": "mateohbernal13@gmail.com",
+    "experiencia": [{
+        "name": "Crikcer",
+        "image": "./assets/crikcer.jpg",
+        "about": "Pool & bar",
+        "start": "2022",
+        "end": ""
+    }],
+    "educacion":[{
+        "name": "CEM49",
+        "image": "",
+        "about": "Educacion media",
+        "start": "2012",
+        "end": "2016"
+    }],
+    "imagen":"./assets/Argentina programa.jpg"
+    
+}

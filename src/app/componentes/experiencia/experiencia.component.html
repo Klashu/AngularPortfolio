@@ -1,0 +1,15 @@
+<section>
+    <div class="card mat-card">
+        <h1>Experiencia</h1>
+        <ul>
+            <li *ngFor="let experiencia of experienciaList">
+                <button type="button" id="edit-button2"><i class="fa-solid fa-pencil"></i></button>
+                <div ><img class="profile-image" [src]="experiencia.image"></div>
+                <h2 id="text">{{experiencia.name}}</h2>
+                <h4 id="text">{{experiencia.about}}</h4>
+                <h4 id="text">{{experiencia.start}}</h4>
+                <h4 id="text">{{experiencia.end}}</h4>
+            </li>
+        </ul>
+        </div>
+    </section>

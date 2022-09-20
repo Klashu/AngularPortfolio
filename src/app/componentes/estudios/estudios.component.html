@@ -1,0 +1,14 @@
+<section>
+    <div class="card mat-card">
+        <h1>Estudios</h1>
+        <ul>
+            <li *ngFor="let estudios of estudiosList">
+                <button type="button" id="edit-button2"><i class="fa-solid fa-pencil"></i></button>
+                <h2 id="text">Nombre: {{estudios.name}}</h2>
+                <h4 id="text">{{estudios.about}}</h4>
+                <h4 id="text">Comienzo: {{estudios.start}}</h4>
+                <h4 id="text">Finalizacion: {{estudios.end}}</h4>
+            </li>
+        </ul>
+        </div>
+    </section>

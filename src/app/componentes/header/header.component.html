@@ -1,0 +1,25 @@
+<header>
+    <div class="card mat-card" id="head">
+        <div><a href="https://www.argentina.gob.ar"><img class="imagenAr"  [src]="miPorfolio.imagen"></a> </div>
+        <h4>Argentina Programa  -  {{miPorfolio.name}}</h4>
+        <button id="login-btn"> Login</button>
+    </div>
+  </header>
+    <div class="card mat-card" id="first-card">
+        <div id="profile-background"><img [src]="miPorfolio.background"></div>
+        <button type="button" id="edit-button"><i class="fa-solid fa-pencil"></i></button>
+        <div id="info" style="padding: 16px">
+            <div id="info-img">
+                <img class="profile-image" [src]="miPorfolio.image">
+            </div>
+            <div id="info-data">
+                <div>
+                    <h1>{{miPorfolio.name}}</h1>
+                    <div id="info-company"><b>{{miPorfolio.position}}</b></div>
+                    <div id="info-contact">
+                        <span><b>{{miPorfolio.ubication}}</b></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

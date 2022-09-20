@@ -1,0 +1,11 @@
+.imagenAr{
+    border-radius: 50%;
+    width: 35px;
+    height: 25px;
+    margin-bottom:-25px;
+    z-index: 1;
+    float:left;
+}
+h4{
+    margin-left: 35px;
+}
